@@ -18,8 +18,8 @@ public class CreateEmployee {
             fw.close();
             System.out.println("Created.");
         } catch (Exception e) {
-            
-            System.out.println("Error.");
+            System.out.println("Error and the error is: " + e.getMessage());
+
         }
     }
 }
